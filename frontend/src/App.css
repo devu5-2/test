@@ -1,0 +1,33 @@
+p, ul li {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #555555;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p{
+    @apply mt-0 mb-4
+}
+
+@media only screen and (max-width:991px){
+    h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    h2{
+        font-size: 34px;
+        line-height: 49px;
+    }
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: rgb(0 ,0 ,0,0.94);
+}
